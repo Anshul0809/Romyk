@@ -7,26 +7,30 @@
 
 
 #navbar
-{
+{   width: 100%;
     padding: 20px 40px 0px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    bottom: 20px;
+    
+    
     
 }
 #navbar img
 {
-     padding: 2px 0px 0px 150px; 
+     padding: 22px 0px 0px 150px;      
     
 }
 #navbar nav ul
 {
-    padding-top: 8px;
-    padding-right: 350px;
+    padding-top: 27px;
+    padding-right: 360px;
     padding-left: 100px;
 
     display: flex;
-    gap: 47px;
+    gap: 55px;
    list-style: none;
     font-size: 18px;
     /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
@@ -37,21 +41,38 @@
     text-decoration: none;
     color: black;
 }
+#navbar nav ul li a:hover
+{
+    color: rgb(243, 108, 131);
+}
 #navbar p
 {
     
     font-family:'poppins',sans-serif;
     position: relative;
-    right: 265px;
-    top: 5px;
+    right: 120px;
+    top: 15px;
     font-size: 19px;
     
 } 
-#search
+#navbar p:hover{
+    color: rgb(243, 108, 131);
+    
+}
+.user
 {
     position: relative;
-    right: 230px;
-    top: 7px;
+    top: 15px;
+    right:118px;}
+
+.search
+{
+    position: relative;
+    top: 15px;
+    right:35px ;
+}
+.search:hover{
+    color: rgb(243, 108, 131);
 }
 /* first page */
 #firstpage {
@@ -69,16 +90,16 @@
     text-align:left;
     position: relative;
     top: 110px;
-    left: 200px;
+    left: 182px;
     font-family:'poppins',sans-serif;
-    font-size: 40px;
+    font-size: 43px;
 }
 #firstpage p
 {
     font-family:'poppins',sans-serif;
     position: relative;
     top: 130px;
-    left: 200px;
+    left: 182px;
     width: 400px;
     line-height: 0.7cm;
 
@@ -87,15 +108,16 @@
 {
     
     font-family: 'poppins',sans-serif;
+    font-size: 20px;
     width: fit-content;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 7px;
     border-color: rgb(255, 255, 255);
     background-color: rgb(255, 154, 188);
     padding: 15px 45px 15px 45px;
     position: relative;
     top: 145px;
-    left: 200px;
+    left: 182px;
     
 
 }
@@ -109,19 +131,32 @@
     
     position: relative;
     left: 780px;
-    bottom: 73px;
+    bottom: 80px;
 }
 #ordernum ol
 {
 display: flex;
-gap: 25px;
+gap: 30px;
 list-style: none;
 position: relative;
 bottom: 140px;
-left: 210px;
+left: 195px;
 font-family:'poppins',sans-serif;
 font-size: 18px;
 
+}
+#ordernum ol li:hover{
+    color: rgb(255, 154, 188);
+}
+/*second page*/
+.Aboutpadding
+{
+    padding-top: 90px;
+}
+.margin
+{
+    margin: 0px 111px 0px 111px;
+    padding: 0px 15px 0px 15px;
 }
 
 
