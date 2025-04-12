@@ -143,7 +143,21 @@ bottom: 140px;
 left: 195px;
 font-family:'poppins',sans-serif;
 font-size: 18px;
+counter-reset: item;
+padding-left: 0;
+margin-left: 0;
+}
 
+#ordernum ol li {
+  counter-increment: item;
+  display: flex;
+  align-items: center;
+}
+
+#ordernum ol li h5 {
+  color: inherit;
+  margin: 0;
+  padding: 0;
 }
 #ordernum ol li:hover{
     color: #fC95C4;
@@ -218,5 +232,52 @@ font-size: 18px;
     padding: 15px 50px 15px 50px;
 }
 /*second page end*/
+/* third page start */
+#thipage .padding{
 
+    padding: 90px 0px 0px 0px;
+}
+#thipage .container
+{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#thipage div h1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 22vh;
+    right: 48vh;
+    font-family: 'poppins',sans-serif;
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.803);
 
+}
+#thipage .border
+{
+    width: 90px;
+    height: 6px;
+    border: 1px solid #00000000;
+    background-color: #fc95c375;
+    border-radius: 4px;
+   position: relative;
+   bottom: 24vh;
+   left: 98vh;
+}
+#thipage span{
+    padding: 0px 0px 10px 0px;
+}
+#thipage .cream_text{
+    font-family: 'poppins',sans-serif;
+    font-size: 20px;
+    position: relative;
+    bottom: 21vh;
+    left: 21vh;
+}
+#thipage .img1
+{
+
+}
