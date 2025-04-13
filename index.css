@@ -1,4 +1,4 @@
-*{
+    *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -279,5 +279,15 @@ margin-left: 0;
 }
 #thipage .img1
 {
+    border: 1px solid hsl(0, 0%, 0%);
+    width: 53vh;
+    height: 58vh;
+    position: relative;
+    left: 18vh;
+    padding: 0px ;
+}
+#thipage .img1 .img
+{
 
+    
 }
