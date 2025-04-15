@@ -8,101 +8,100 @@
 
 #navbar
 {   width: 100%;
-    padding: 20px 40px 0px 40px;
+    /*padding: 20px 40px 0px 40px;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    bottom: 93%;
-    /*position: absolute;*/
-    
-    
-    
+    top: 4.4%;
+    z-index: 999;
+
 }
+    
 #navbar img
 {
-     padding: 22px 0px 0px 150px;      
+    scale: 1.1; 
+      position: absolute; 
+      top: 50%;
+      left: 9.6%; 
     
 }
 #navbar nav ul
 {
-    padding-top: 27px;
-    padding-right: 360px;
-    padding-left: 100px;
-
-    display: flex;
-    gap: 55px;
-   list-style: none;
-    font-size: 18px;
-    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-    font-family:'poppins',sans-serif;
+position: absolute;
+left:26.2%;
+display: flex;
+gap: 55px;
+list-style: none;
+font-size: 18px;
+font-family:'poppins',sans-serif;
 }
 #navbar nav ul li a
 {
     text-decoration: none;
     color: black;
 }
+#navbar nav ul div
+{
+    position: absolute;
+    left: 129% ;
+}
 #navbar nav ul li a:hover
 {
     color: #fC95C4;
 }
-#navbar p
+#navbar div a 
 {
-    
-    font-family:'poppins',sans-serif;
-    position: absolute;
-    right: 120px;
-    top: 15px;
-    font-size: 19px;
-    
-} 
-#navbar p:hover{
-    color: #fC95C4;
+    text-decoration: none;
+    color: black;
     
 }
-.user
+#navbar .icons
 {
+    font-size: 18px;
+    display: flex;
+    gap: 57px;
     position: absolute;
-    top: 15px;
-    right:118px;}
+    top: 3%;
+    left: 84%;
 
-.search
-{
-    position:absolute;
-    top: 15px;
-    right:35px ;
 }
-.search:hover{
+#navbar div span :hover{
     color: #fC95C4;
 }
+/*hearde navbar section end*/  
 /* first page */
 #firstpage {
   background-image: url('./images/banner-bg.png');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 3%;
   background-size: cover;
-  height:100vh;
-  width: 100%;
-
+  min-height: 100vh;
+}
+#firstpage {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 #firstpage h1
 {
-    box-sizing: border-box;
-    text-align:left;
-    position: absolute;
-    top: 110px;
-    left: 182px;
+    position: relative;
+    top:180px;
+    left: 145px;
+    color: rgba(0, 0, 0, 0.873);
     font-family:'poppins',sans-serif;
-    font-size: 43px;
+    font-size: 70px;
 }
+
 #firstpage p
 {
     font-family:'poppins',sans-serif;
-    position: absolute;
-    top: 130px;
-    left: 182px;
-    width: 400px;
-    line-height: 0.7cm;
+    font-size: medium;
+    position: relative;
+    top: 190px;
+    left: 152px;
+    width: 355px;
+    line-height: 0.8cm;
 
 }
 #ordernow
@@ -116,9 +115,9 @@
     border-color: rgb(255, 255, 255);
     background-color: #fC95C4;
     padding: 15px 45px 15px 45px;
-    position: absolute;
-    top: 145px;
-    left: 182px;
+    position: relative;
+    top: 210px;
+    left: 152px;
     
 
 }
@@ -129,19 +128,20 @@
 }
 .img
 {
-    
-    position: absolute;
-    left: 780px;
-    bottom: 80px;
+  scale:0.73;
+  position: absolute;
+  left: 40.3%;
+  top: 13%;
+
 }
 #ordernum ol
 {
 display: flex;
 gap: 30px;
 list-style: none;
-position: absolute;
-bottom: 140px;
-left: 195px;
+position: relative;
+top: 240px;
+left:160px ;
 font-family:'poppins',sans-serif;
 font-size: 18px;
 counter-reset: item;
@@ -156,13 +156,14 @@ margin-left: 0;
 }
 
 #ordernum ol li h5 {
-  color: inherit;
+  color: rgba(0, 0, 0, 0.91);
   margin: 0;
   padding: 0;
 }
 #ordernum ol li:hover{
     color: #fC95C4;
 }
+/*first page end*/
 /*second page*/
 .Aboutpadding
 {
@@ -187,9 +188,9 @@ margin-left: 0;
     font-family:'poppins',sans-serif;
     color: rgba(0, 0, 0, 0.792);
     font-size: 30px;
-    position: absolute;
-    bottom: 633px;
-    left: 787px;
+   position:relative ;
+    left: 778px;
+    top:18vh;
     width: fit-content;
       
 }
@@ -199,19 +200,19 @@ margin-left: 0;
     border: 1px solid #00000000;
     background-color: #fC95C4;
     border-radius: 4px;
-   position: absolute;
-   bottom: 88vh;
-   left: 158vh;
+    position: relative;
+    left: 160vh;
+    top: 16vh;
 }
 #secpage div p {
     font-family: 'poppins', sans-serif;
-    font-size: 17px;
+    font-size: 17.5px;
     color: rgba(0, 0, 0, 0.827);
-    width: 600px;
+    width: 585px;
     line-height: 0.8cm;
-    position: absolute;
-    bottom: 83vh;
-    left: 107vh;
+   position: relative;
+    top: 20vh;
+    left: 105vh;
 }
 #secpage div a
 {
@@ -227,13 +228,17 @@ margin-left: 0;
     background-color: #fC95C4;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    position: absolute;
-    bottom: 76vh;
-    left: 107vh;
     padding: 15px 50px 15px 50px;
+    position: relative;
+    top: 27vh;
+    left: 105vh;
+    
 }
+    */
 /*second page end*/
+
 /* third page start */
+/* 
 #thipage .padding{
 
     padding: 90px 0px 0px 0px;
@@ -291,4 +296,4 @@ margin-left: 0;
 {
 
     
-}
+}*/
