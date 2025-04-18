@@ -281,27 +281,4 @@ margin-left: 0;
     left: 50%;
     
 }
-#thipage div .boximg1{
-    width: 370px;
-    height: 465px;
-    border: 1px solid #00000000;
-    position: absolute;
-    top: 250%;
-    left: 10.5%;
-    background-color: #66666612;
-    
-}
-#thipage div .boximg1 img{
-    position: absolute;
-    left: 23%;
-    top: 10%;
-    scale: 1.1;
-}
-#thipage div .whitesection{
-    width:369px;
-    height: 165px;
-    border: 1px solid #01010100;
-    background-color: white;
-    position: absolute;
-    top: 64.7%;
-}
+
