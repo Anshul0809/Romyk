@@ -120,13 +120,52 @@ border-radius: 50%;
 }
 /* }
 /* responsive design */
+#check
+{
+    display: none;
+}
+#bar{
+    display: none;
+}
 @media(max-width:430px){
+     #bar{
+        display: block;
+        position: absolute;
+        top: 5%;
+        left: ;
+        right: 5%;
+        font-size: 30px;
+        z-index: 999;
+     }
+
     #navbar nav ul{
         display: none;
         
     }
     #navbar .icons{
         display: none;
+    }
+    #check:checked~#navbar nav ul{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40%;
+        background-color: bisque;
+        position: absolute;
+        left: 0%;
+        top: 15%;
+
+
+
+    }
+    #check :checked~main #fristpage{
+        margin: ;
+    }
+    #check :checked~main #fristpage img{
+        position: absolute;
+        top: ;
+        
     }
     #firstpage .img{
         display: flex;
