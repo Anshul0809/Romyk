@@ -754,12 +754,12 @@ margin-left: 0;
 
     
 }
-#boximage5
+ #boximage5
 {
     position: absolute;
     top: 310%;
     left: 37%;
-}
+} 
 
 /* boximage6 */
 
@@ -846,12 +846,12 @@ margin-left: 0;
 
     
 }
-#boximage6
+ #boximage6
 {
     position: absolute;
     top: 310%;
     left: 64%;
-}
+} 
 #thipage .see_more{
     font-family: 'poppins',sans-serif;
     font-size: 17px;
@@ -1089,16 +1089,16 @@ scale: 0.8;
     scale: 0.8;
     }
     /* footer style */
- #footer{
+ /* #footer{
         padding: 50px 0px 0px 0px ;
-    }
+    } */
 #footer .border{
     width: 100%;
     height: 740px;
     border: 1px solid black;
     background-color: #222222;
     position: absolute;
-    top: 550%;
+    top: 547.5%;
 }
 /* media  */
 @media(max-width:431px){
@@ -1279,10 +1279,10 @@ scale: 0.8;
 }
 #thipage .h1p{
     width: 430px;
-    scale: 0.8;
+    scale: 0.75;
     position: absolute;
     top: 280%;
-    left: 1%;
+    left: -8%;
     
 }
 #thipage .box_img1{
@@ -1316,10 +1316,107 @@ scale: 0.8;
     left: 3.8%;
     scale: 0.94;
 } 
-#thipage #boximage4_5_6 section .box_img5{
+#thipage #boximage5 {
     width: 400px;
     position: absolute;
     top: 596%;
     left: 5.8%;
     scale: 0.99;
+}
+#thipage #boximage6{
+    width: 400px;
+    position: absolute;
+    top: 668%;
+    left: 5.8%;
+    scale: 0.99;
+}
+#thipage .see_more{
+    position: absolute;
+    top: 745%;
+    left: 30%; 
+}
+/* third page end  */
+/* fourth page start  */
+#foupage{
+    max-width: 430px;
+}
+#foupage .padding{
+    width: 430px;
+    position:absolute;
+    top:753% ;
+}
+#foupage .heading {
+    width: 430px;
+    position: absolute;
+    top: 765%;
+    left: -14%;
+    scale: 0.75;
+
+}
+#foupage .border{
+    display: none;
+}
+#foupage .box .box1{
+    position: absolute;
+    top: 790%;
+    left: 5.8%;
+}
+#foupage .box .box2{
+    position: absolute;
+    top: 820%;
+    left: 5.8%;
+}
+#foupage .box .box3{
+    position: absolute;
+    top: 850%;
+    left: 5.8%;
+}
+#foupage .read_more{
+    position: absolute;
+    top: 885%;
+    left: 30%;
+}
+/* fourth page end  */
+/* fiveth page end  */
+#fivpage .icon1{
+    display: none; 
+}
+#fivpage .padding{
+    position: absolute;
+    top: 890%;
+}
+#fivpage h1{
+    position: absolute;
+    top:905%;
+    left: 20%;
+    scale: 0.75;
+}
+#fivpage .border{
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    top: 918%;
+    left: 12px;
+    scale: 0.98;
+
+}
+#fivpage .border p{
+    scale: 0.9;
+}
+#fivpage .border h2{
+    position: absolute;
+    top: 52%;
+    left: 38%;
+
+}
+#fivpage .border img{
+    
+    position: absolute;
+    top: 62%;
+    left: 28%;
+}
+#fivpage .icon2{
+    display: none; 
+}
+
 }
