@@ -1100,6 +1100,19 @@ scale: 0.8;
     position: absolute;
     top: 547.5%;
 }
+#footer div h1{
+    font-family:'poppins',sans-serif;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+#footer div h1{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
 /* media  */
 @media(max-width:431px){
 #navbar nav ul {
@@ -1148,12 +1161,15 @@ scale: 0.8;
        gap: 17px;
        justify-content: center;
        align-items: center;
+       font-family:'poppins',sans-serif;
+       font-size: 16px;
        order: 1;
        background-color: #ff6565;
        width: 430px;
        position: absolute !important;
        top:35px;
        left:0%;
+
        }
     
 
@@ -1175,7 +1191,7 @@ scale: 0.8;
         order: 2;
         /* margin-top: 252px; */
         position: absolute;
-        top: 245px;
+        top: 243px;
         left: 0%;
         background-color: #ff6565;
         width: 430px;
@@ -1185,13 +1201,17 @@ scale: 0.8;
         display: flex;
         position: absolute;
         top: 300px;
-        background-color: tomato; 
+        left: -362px;
+        background-color: #ff6565; 
+        width: 430px;
 
     }
      /* firstpage  */
 
      #firstpage{
+        max-width: 430px;
         background-image: none;
+        
      }
 
 
@@ -1235,13 +1255,20 @@ scale: 0.8;
 #secpage .Aboutpadding{
     padding: 90px 0px 0px 0px;
     }
-    #secpage div h1 {
+    #secpage .h1 {
         width: 430px;
         position: absolute;
-        right: 395px;
-        bottom: 78px;
+        /* right: 395px; */
+        /* bottom: 78px; */
+        left: 2%;
+        top: 110%;
         scale: 0.7;
 } 
+
+#secpage div{
+    
+}
+
 #secpage .border{
     display: none;
 }
