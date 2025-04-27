@@ -1194,7 +1194,7 @@ scale: 0.8;
     background: none;
     color: white;
     border-bottom: 1px solid rgb(125, 125, 125);
-    width: fit-content;
+    width: 260px;
     /* position: absolute;
     top: 55%;
     left: 10%; */
@@ -1239,9 +1239,69 @@ scale: 0.8;
     text-decoration: none;
     color: #f2f2f0;
 }
-
-
-
+#footer .icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    gap: 50px;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 18%;
+    right: 35%;
+    
+}
+#footer .icons .call{
+    font-family: 'poppins',sans-serif;
+    font-variant:small-caps;
+    font-size: 20px;
+    color: #f2f2f0da;
+    position: absolute;
+    top: 2%;
+    left: 170%;
+}
+#footer .icons .email{
+    font-family: 'poppins',sans-serif;
+    font-variant:small-caps;
+    
+    font-size: 20px;
+    color: #f2f2f0da;
+    position: absolute;
+    top: 45%;
+    left: 170%;
+}
+#footer .icons .Add{
+    font-family: 'poppins',sans-serif;
+    font-variant:small-caps;
+    
+    font-size: 20px;
+    color: #f2f2f0da;
+    position: absolute;
+    top: 85%;
+    left: 170%;
+}
+#footer .map{
+    scale: 0.6;
+    position: absolute;
+    top: 35%;
+    left: 60%;
+}
+#footer .border2{
+    border: 1px solid rgba(255, 255, 255, 0.642);
+    width: 85%;
+    position: absolute;
+    top: 92%;
+    left: 8%;
+}
+#footer .last{
+    font-family: 'poppins',sans-serif;
+    color: white;
+    position: absolute;
+    top: 95%;
+    left: 34%;
+    font-size:20px ;
+}
 
 
 
@@ -1577,5 +1637,14 @@ scale: 0.8;
 #fivpage .icon2{
     display: none; 
 }
-
+/* fifth page end  */
+/* footer page  */
+#footer{
+    max-width: 430px;
+}
+#footer .border{
+    max-width: 430px;
+    position: absolute;
+    top: 1000%;
+}
 }
