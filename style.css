@@ -868,6 +868,9 @@ margin-left: 0;
     top: 378%;
     left: 44%;  
 }
+#thipage .see_more:hover{
+    background-color: #000000;
+}
 #thipage .see_more a{
     text-decoration: none;
     color: #f2f2f0;
@@ -1023,6 +1026,11 @@ margin-left: 0;
     top: 443%;
     left: 44%;
 }
+#foupage .read_more:hover{
+    background-color: #000000;
+    
+}
+
 #foupage .read_more a{
     text-decoration: none;
     color: #f2f2f0;
@@ -1207,16 +1215,32 @@ scale: 0.8;
     top: 55%;
     left: 14%;
 }
-#footer .submit input{
-border: none;
-outline: none;
-background-color: #fC95C4;
-width: 150px;
-height: 50px;
-position: absolute;
-top: 70%;
-left: 15%;
+#footer .Send{
+    font-family: 'poppins',sans-serif;
+    font-size: 17px;
+    color: black;
+    width: fit-content;
+    border: 0px solid black;
+    border-color: none;
+    background-color: #fC95C4;
+    padding: 15px 55px 15px 55px;
+    position: absolute;
+    top:65%;
+    left: 10%;
 }
+#footer .Send:hover{
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+#footer .Send:hover a {
+    color: #000000;
+}
+#footer .Send a{
+    text-decoration: none;
+    color: #f2f2f0;
+}
+
+
 
 
 
