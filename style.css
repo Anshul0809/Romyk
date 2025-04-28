@@ -1450,16 +1450,13 @@ scale: 0.8;
 #secpage{
     width: 430px;
 }
-#secpage .Aboutpadding{
-    padding: 90px 0px 0px 0px;
-    }
-    #secpage .h1 {
+ #secpage .h1 {
         width: 430px;
         position: absolute;
         /* right: 395px; */
         /* bottom: 78px; */
-        left: 2%;
-        top: 110%;
+        left:-18%;
+        top: 113%;
         scale: 0.7;
 } 
 
