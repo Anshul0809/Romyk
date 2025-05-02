@@ -1,0 +1,650 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar
+{   width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 4.4%;
+    z-index: 999;
+    border-bottom: 1px solid #fC95C4;
+    padding-bottom: 55px;
+
+}
+    
+#navbar img
+{
+    scale: 1.1; 
+      position: absolute; 
+      top: 5%;
+      left: 9.6%; 
+    
+}
+#navbar nav ul
+{
+position: absolute;
+left:26.2%;
+display: flex;
+gap: 55px;
+list-style: none;
+font-size: 18px;
+font-family:'poppins',sans-serif;
+}
+#navbar nav ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+#navbar nav div{
+    list-style: none;
+font-size: 18px;
+font-family:'poppins',sans-serif;
+position: absolute;
+left: 80.5%;
+}
+#navbar nav div :hover{
+    color: #fC95C4;
+}
+
+#navbar nav ul li a:hover
+{
+    color: #fC95C4;
+}
+#navbar div a 
+{
+    text-decoration: none;
+    color: black;
+    
+}
+#navbar .icons
+{
+    font-size: 18px;
+    display: flex;
+    gap: 57px;
+    position: absolute;
+    top: 3%;
+    left: 84%;
+
+}
+#navbar div span :hover{
+    color: #fC95C4;
+}
+/* navbar end  */
+/* ice cream page start  */
+#thipage
+{
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    
+}
+
+#thipage .padding{
+
+    padding: 90px 0px 0px 90px;
+}
+#thipage .h1p
+{
+    font-family: 'poppins',sans-serif;
+    font-size: x-large;
+    display: grid; 
+    justify-content: left; 
+    gap: 18px; /* Added gap to create vertical spacing between h1 and p */
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    color: rgba(0, 0, 0, 0.827);
+    
+}
+#thipage .h1p p{
+    font-size: large;
+}
+#thipage .border{
+    width: 90px;
+    height: 4px;
+    border: 1px solid #00000000;
+    background-color: #fc95c37b;
+    border-radius: 4px;
+    position: absolute;
+    top: 25%;
+    left: 43%;
+}
+#thipage .cream_box{
+    width: 100%;
+    height: 100vh;
+    
+}
+#thipage .bgimg{
+    position: absolute;
+    top: 227%;
+    left: 83.5%;
+    scale: 0.4;
+}
+/* boximage1 */
+#thipage .box_img1{
+    width: 380px;
+    height: 455px;
+    border: 0px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 30%;
+    left: 11%;
+     background:linear-gradient( 0deg, #ffffff 37%, #f2f2f0 37%)
+    
+    
+}
+#thipage .box_img1{
+    box-shadow: 1px 1px 1px 0px rgba(128, 128, 128, 0.223) ,-1px 1px 1px 0px rgba(128, 128, 128, 0.223);
+}
+#thipage .box_img1:hover{
+    background:linear-gradient( 0deg,#f2f2f000 37%, #ffbf0037 37%)
+}
+#thipage .img1{
+    scale:1.1 ;
+    position: absolute;
+    top: 6%;
+    left: 24%;
+}
+#thipage .price1{
+    width: 71px;
+    height: 71px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 57%;
+    left: 41%;
+}
+#thipage .price1 p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 28px;
+    position: absolute;
+    top: 28%;
+    left: 21%;
+}
+#thipage .price1 h6{
+    width: 100%;
+    font-family: 'poppins',sans-serif;
+    font-size:23px;
+    color: #000000e0;
+    position: absolute;
+    top: 110%;
+    right: 121%;
+}
+#thipage .add_to_cart{
+    width: 45%;
+    float: left; 
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #fc95c4;
+     color: #fc95c4;
+    padding: 8px 0px 8px 0px;
+    border-radius: 40px;
+    position: absolute;
+    top: 87%;
+    left: 30%;
+    scale: 1.2;
+}
+#thipage .add_to_cart a{
+    text-decoration: none;
+    color: #fc95c4;
+
+}
+
+#thipage .add_to_cart:hover {
+    /* text-decoration: none; */
+    /* color: #000000 !important; */
+    border: 1px solid #090909; 
+
+}
+
+#thipage .add_to_cart:hover a {
+    /* border: 1px solid #090909;    */
+    color: #080808;
+
+    
+}
+/* boximag2 */
+#thipage .box_img2{
+    width: 380px;
+    height: 455px;
+    border: 0px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    background:linear-gradient( 0deg, #ffffff 37%, #f2f2f0 37%)
+    
+    
+}
+#thipage .box_img2{
+    box-shadow: 1px 1px 1px 0px rgba(128, 128, 128, 0.223) ,-1px -1px 1px 0px rgba(128, 128, 128, 0.223);
+}
+#thipage .box_img2:hover{
+    background:linear-gradient( 0deg,#ffffff00 37%, #ffbf0037 37%)
+}
+#thipage .img2{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    scale: 1.3;
+}
+#thipage .price2{
+    width: 71px;
+    height: 71px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 57%;
+    left: 41%;
+} 
+#thipage .price2 p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 29px;
+    position: absolute;
+    top: 28%;
+    left: 20%;
+}
+#thipage .price2 h6{
+    width: 100%;
+    font-family: 'poppins',sans-serif;
+    font-size:25px;
+    color: #000000e0;
+    position: absolute;
+    top: 110%;
+    right: 121%;
+}
+#thipage .add_to_cart2{
+    width: 45%;
+    float: left; 
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #fc95c4;
+     color: #fc95c4;
+    padding: 8px 0px 8px 0px;
+    border-radius: 40px;
+    position: absolute;
+    top: 87%;
+    left: 30%;
+    scale: 1.2;
+}
+#thipage .add_to_cart2 a{
+    text-decoration: none;
+    color: #fc95c4;
+
+}
+
+#thipage .add_to_cart2:hover {
+    /* text-decoration: none; */
+    /* color: #000000 !important; */
+    border: 1px solid #090909; 
+
+}
+
+#thipage .add_to_cart2:hover a {
+    /* border: 1px solid #090909;    */
+    color: #080808;
+
+    
+}
+
+
+/* boximage3 */
+
+#thipage .box_img3{
+    width: 380px;
+    height: 455px;
+    border: 0px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    background:linear-gradient( 0deg, #ffffff 37%, #f2f2f0 37%)
+    
+    
+}
+#thipage .box_img3{
+    box-shadow: 1px 1px 1px 0px rgba(128, 128, 128, 0.223) ,-1px 1px 1px 0px rgba(128, 128, 128, 0.223);
+}
+#thipage .box_img3:hover{
+    background:linear-gradient( 0deg,#f2f2f000 37%, #ffbf0037 37%)
+}
+#thipage .img3{
+    position: absolute;
+    top: 7%;
+    left: 25%;
+    scale: 1.1;
+}
+#thipage .price3{
+    width: 71px;
+    height: 71px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 57%;
+    left: 41%;
+} 
+#thipage .price3 p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 29px;
+    position: absolute;
+    top: 28%;
+    left: 20%;
+}
+#thipage .price3 h6{
+    width: 100%;
+    font-family: 'poppins',sans-serif;
+    font-size:25px;
+    color: #000000e0;
+    position: absolute;
+    top: 110%;
+    right: 121%;
+}
+#thipage .add_to_cart3{
+    width: 45%;
+    float: left; 
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #fc95c4;
+     color: #fc95c4;
+    padding: 8px 0px 8px 0px;
+    border-radius: 40px;
+    position: absolute;
+    top: 87%;
+    left: 30%;
+    scale: 1.2;
+}
+#thipage .add_to_cart3 a{
+    text-decoration: none;
+    color: #fc95c4;
+
+}
+
+#thipage .add_to_cart3:hover {
+    /* text-decoration: none; */
+    /* color: #000000 !important; */
+    border: 1px solid #090909; 
+
+}
+
+#thipage .add_to_cart3:hover a {
+    /* border: 1px solid #090909;    */
+    color: #080808;
+
+    
+}
+
+
+/* boximage4_5_6 */
+
+#thipage .bgimg2{
+    scale: 0.4;
+    position: absolute;
+    top: 335.4%;
+    right: 83.8%;
+
+}
+ 
+/* boximage4 */
+#thipage .box_img4{
+    width: 380px;
+    height: 455px;
+    border: 0px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 97%;
+    left: 11%;
+    background:linear-gradient( 0deg, #ffffff 37%, #f2f2f0 37%)
+    
+    
+}
+#thipage .box_img4{
+    box-shadow: 1px 1px 1px 0px rgba(128, 128, 128, 0.223) ,-1px 1px 1px 0px rgba(128, 128, 128, 0.223);
+}
+#thipage .box_img4:hover{
+    background:linear-gradient( 0deg,#f2f2f000 37%, #ffbf0037 37%)
+}
+#thipage .img4{
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    scale: 1.2;
+} 
+#thipage .price4{
+    width: 71px;
+    height: 71px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 57%;
+    left: 41%;
+}
+#thipage .price4 p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 28px;
+    position: absolute;
+    top: 28%;
+    left: 21%;
+}
+#thipage .price4 h6{
+    width: 100%;
+    font-family: 'poppins',sans-serif;
+    font-size:25px;
+    color: #000000e0;
+    position: absolute;
+    top: 110%;
+    right: 99%;
+}
+#thipage .add_to_cart4{
+    width: 45%;
+    float: left; 
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #fc95c4;
+     color: #fc95c4;
+    padding: 8px 0px 8px 0px;
+    border-radius: 40px;
+    position: absolute;
+    top: 87%;
+    left: 30%;
+    scale: 1.2;
+}
+#thipage .add_to_cart4 a{
+    text-decoration: none;
+    color: #fc95c4;
+
+}
+
+#thipage .add_to_cart4:hover {
+    /* text-decoration: none; */
+    /* color: #000000 !important; */
+    border: 1px solid #090909; 
+
+}
+
+#thipage .add_to_cart4:hover a {
+    /* border: 1px solid #090909;    */
+    color: #080808;
+
+    
+}
+
+/* boximage5 */
+
+#thipage .box_img5{
+    width: 380px;
+    height: 455px;
+    border: 0px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 97%;
+    left: 38%;
+    background:linear-gradient( 0deg, #ffffff 37%, #f2f2f0 37%)
+    
+    
+}
+#thipage .box_img5{
+    box-shadow: 1px 1px 1px 0px rgba(128, 128, 128, 0.223) ,-1px 1px 1px 0px rgba(128, 128, 128, 0.223);
+}
+#thipage .box_img5:hover{
+    background:linear-gradient( 0deg,#f2f2f000 37%, #ffbf0037 37%)
+}
+#thipage .img5{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    scale: 1.2;
+}
+#thipage .price5{
+    width: 71px;
+    height: 71px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 57%;
+    left: 41%;
+} 
+#thipage .price5 p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 29px;
+    position: absolute;
+    top: 28%;
+    left: 20%;
+}
+#thipage .price5 h6{
+    width: 100%;
+    font-family: 'poppins',sans-serif;
+    font-size:22px;
+    color: #000000e0;
+    position: absolute;
+    top: 110%;
+    right: 129%;
+}
+#thipage .add_to_cart5{
+    width: 45%;
+    float: left; 
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #fc95c4;
+     color: #fc95c4;
+    padding: 8px 0px 8px 0px;
+    border-radius: 40px;
+    position: absolute;
+    top: 87%;
+    left: 30%;
+    scale: 1.2;
+}
+#thipage .add_to_cart5 a{
+    text-decoration: none;
+    color: #fc95c4;
+
+}
+
+#thipage .add_to_cart5:hover {
+    /* text-decoration: none; */
+    /* color: #000000 !important; */
+    border: 1px solid #090909; 
+
+}
+
+#thipage .add_to_cart5:hover a {
+    /* border: 1px solid #090909;    */
+    color: #080808;
+
+    
+}
+ 
+
+/* boximage6 */
+
+#thipage .box_img6{
+    width: 380px;
+    height: 455px;
+    border: 0px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 97%;
+    left: 65%;
+    background:linear-gradient( 0deg, #ffffff 37%, #f2f2f0 37%)
+    
+    
+}
+#thipage .box_img6{
+    box-shadow: 1px 1px 1px 0px rgba(128, 128, 128, 0.223) ,-1px 1px 1px 0px rgba(128, 128, 128, 0.223);
+}
+#thipage .box_img6:hover{
+    background:linear-gradient( 0deg,#f2f2f000 37%, #ffbf0037 37%)
+}
+#thipage .img6{
+    position: absolute;
+    top: 16%;
+    left: 23%;
+    scale: 1.2;
+}
+#thipage .price6{
+    width: 71px;
+    height: 71px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 57%;
+    left: 41%;
+} 
+#thipage .price6 p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 29px;
+    position: absolute;
+    top: 28%;
+    left: 20%;
+}
+#thipage .price6 h6{
+    width: 100%;
+    font-family: 'poppins',sans-serif;
+    font-size:22px;
+    color: #000000e0;
+    position: absolute;
+    top: 110%;
+    right: 130%;
+}
+#thipage .add_to_cart6{
+    width: 45%;
+    float: left; 
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #fc95c4;
+     color: #fc95c4;
+    padding: 8px 0px 8px 0px;
+    border-radius: 40px;
+    position: absolute;
+    top: 87%;
+    left: 30%;
+    scale: 1.2;
+}
+#thipage .add_to_cart6 a{
+    text-decoration: none;
+    color: #fc95c4;
+
+}
+
+#thipage .add_to_cart6:hover {
+    /* text-decoration: none; */
+    /* color: #000000 !important; */
+    border: 1px solid #090909; 
+
+}
+
+#thipage .add_to_cart6:hover a {
+    /* border: 1px solid #090909;    */
+    color: #080808;
+
+    
+}

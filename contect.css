@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar
+{   width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 4.4%;
+    z-index: 999;
+    border-bottom: 1px solid #fC95C4;
+    padding-bottom: 55px;
+
+}
+    
+#navbar img
+{
+    scale: 1.1; 
+      position: absolute; 
+      top: 5%;
+      left: 9.6%; 
+    
+}
+#navbar nav ul
+{
+position: absolute;
+left:26.2%;
+display: flex;
+gap: 55px;
+list-style: none;
+font-size: 18px;
+font-family:'poppins',sans-serif;
+}
+#navbar nav ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+#navbar nav div{
+    list-style: none;
+font-size: 18px;
+font-family:'poppins',sans-serif;
+position: absolute;
+left: 80.5%;
+}
+#navbar nav div :hover{
+    color: #fC95C4;
+}
+
+#navbar nav ul li a:hover
+{
+    color: #fC95C4;
+}
+#navbar div a 
+{
+    text-decoration: none;
+    color: black;
+    
+}
+#navbar .icons
+{
+    font-size: 18px;
+    display: flex;
+    gap: 57px;
+    position: absolute;
+    top: 3%;
+    left: 84%;
+
+}
+#navbar div span :hover{
+    color: #fC95C4;
+}
+/* navbar end  */
+ /* footer style */
+
+ #footer .border{
+    width: 100%;
+    height: 740px;
+    border: 1px solid black;
+    background-color: #222222;
+    position: absolute;
+    top: 11.9%;
+}
+#footer div h1{
+    font-family:'poppins',sans-serif;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+#footer div h1{
+    position: absolute;
+    top: 12%;
+    left: 10%;
+}
+#footer .NAME form input{
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid rgb(125, 125, 125);
+    width: 300px;
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    
+}
+#footer .NAME form input::placeholder{
+    font-family: 'poppins',sans-serif;
+    color: white;
+}
+
+#footer .NAME label{
+    scale: 1.2;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+#footer .EMAIL form input{
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid rgb(125, 125, 125);
+    width: 300px;
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    
+}
+#footer .EMAIL label{
+    scale: 1.2;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+#footer .EMAIL form input::placeholder{
+    font-family: 'poppins',sans-serif;
+    color: white;
+}
+#footer .NUMBER form input{
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid rgb(125, 125, 125);
+    width: 300px;
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    
+}
+#footer .NUMBER label{
+    scale: 1.2;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+#footer .NUMBER form input::placeholder{
+    font-family: 'poppins',sans-serif;
+    color: white;
+}
+#footer .MSG form textarea{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    border-bottom: 1px solid rgb(125, 125, 125);
+    width: 260px;
+    
+    scale: 1.2;
+}
+#footer .MSG form textarea::placeholder
+{
+    font-family: 'poppins',sans-serif;
+    color: white;
+    max-width: fit-content;
+    
+}
+#footer .MSG label{
+    scale: 1.2;
+    position: absolute;
+    top: 55%;
+    left: 14%;
+}
+#footer .Send{
+    font-family: 'poppins',sans-serif;
+    font-size: 17px;
+    color: black;
+    width: fit-content;
+    border: 0px solid black;
+    border-color: none;
+    background-color: #fC95C4;
+    padding: 15px 55px 15px 55px;
+    position: absolute;
+    top:65%;
+    left: 10%;
+}
+#footer .Send:hover{
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+#footer .Send:hover a {
+    color: #000000;
+}
+#footer .Send a{
+    text-decoration: none;
+    color: #f2f2f0;
+}
+#footer .icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    gap: 50px;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 18%;
+    right: 35%;
+    
+}
+#footer .icons .call{
+    font-family: 'poppins',sans-serif;
+    font-variant:small-caps;
+    font-size: 20px;
+    color: #f2f2f0da;
+    position: absolute;
+    top: 2%;
+    left: 170%;
+}
+#footer .icons .email{
+    font-family: 'poppins',sans-serif;
+    font-variant:small-caps;
+    
+    font-size: 20px;
+    color: #f2f2f0da;
+    position: absolute;
+    top: 45%;
+    left: 170%;
+}
+#footer .icons .Add{
+    font-family: 'poppins',sans-serif;
+    font-variant:small-caps;
+    
+    font-size: 20px;
+    color: #f2f2f0da;
+    position: absolute;
+    top: 85%;
+    left: 170%;
+}
+#footer .map{
+    scale: 0.6;
+    position: absolute;
+    top: 35%;
+    left: 60%;
+}
+#footer .border2{
+    border: 1px solid rgba(255, 255, 255, 0.642);
+    width: 85%;
+    position: absolute;
+    top: 92%;
+    left: 8%;
+}
+#footer .last{
+    font-family: 'poppins',sans-serif;
+    color: white;
+    position: absolute;
+    top: 95%;
+    left: 34%;
+    font-size:20px ;
+}

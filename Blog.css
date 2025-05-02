@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar
+{   width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 4.4%;
+    z-index: 999;
+    border-bottom: 1px solid #fC95C4;
+    padding-bottom: 55px;
+
+}
+    
+#navbar img
+{
+    scale: 1.1; 
+      position: absolute; 
+      top: 5%;
+      left: 9.6%; 
+    
+}
+#navbar nav ul
+{
+position: absolute;
+left:26.2%;
+display: flex;
+gap: 55px;
+list-style: none;
+font-size: 18px;
+font-family:'poppins',sans-serif;
+}
+#navbar nav ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+#navbar nav div{
+    list-style: none;
+font-size: 18px;
+font-family:'poppins',sans-serif;
+position: absolute;
+left: 80.5%;
+}
+#navbar nav div :hover{
+    color: #fC95C4;
+}
+
+#navbar nav ul li a:hover
+{
+    color: #fC95C4;
+}
+#navbar div a 
+{
+    text-decoration: none;
+    color: black;
+    
+}
+#navbar .icons
+{
+    font-size: 18px;
+    display: flex;
+    gap: 57px;
+    position: absolute;
+    top: 3%;
+    left: 84%;
+
+}
+#navbar div span :hover{
+    color: #fC95C4;
+}
+/* navbar end  */
+/*Blog  page  */
+#fivpage .padding{
+    padding: 90px 0px 0px 0px;
+}
+#fivpage h1{
+    font-family: 'poppins', sans-serif;
+    font-size:50px; 
+    color: #000000;
+    position: absolute;
+    top: 15%;
+    left: 38%;
+}
+#fivpage .border{
+    width: 1000px; 
+    height: 330px; 
+    border: 1px solid #00000000; 
+
+    position: absolute;
+    top: 30%;
+    left: 16%;
+    box-shadow:1px 1px 1px 0px rgba(128, 128, 128, 0.223) ,-1px -1px 1px 0px rgba(128, 128, 128, 0.223) ;
+}
+#fivpage .border p{
+    font-family: 'poppins',sans-serif;
+    font-size: 15.5px;
+    line-height: 0.6cm;
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 12%;
+    left: 3.5%;
+    
+}
+#fivpage .border h2{
+    font-family: 'poppins', sans-serif;
+     font-size: 24px;
+      color: #333333;
+     position: absolute;
+     top: 46%;
+     left: 45%;
+}
+#fivpage .border img{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+}
+#fivpage .icon1{
+position: absolute;
+top: 40%;
+left: 2%;
+scale: 0.8;
+}
+#fivpage .icon2{
+    position: absolute;
+    top: 40%;
+    left: 86%;
+    scale: 0.8;
+    }
+
+    #fivpage .footer{
+        border: 1px solid black;
+        width: 100%;
+        height: 100px;
+        background-color: #222222;
+        position: absolute;
+        top: 90%;
+    }
+    #fivpage .footer .border2{
+        border: 1px solid rgba(255, 255, 255, 0.642);
+        width: 85%;
+        position: absolute;
+        top: 40%;
+        left: 8%;
+    }
+    #fivpage .footer .last{
+        position: absolute;
+        top: 70%;
+        left: 30%;
+        
+    }
+     #fivpage .footer p{
+        color: rgb(255, 255, 255);
+        font-family: 'poppins',sans-serif;
+        font-size: 20px;
+     }
