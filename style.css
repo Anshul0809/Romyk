@@ -13,7 +13,7 @@
 
 #navbar
 {   width: 100%;
-    /*padding: 20px 40px 0px 40px;*/
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,11 +56,7 @@ left: 80.5%;
 #navbar nav div :hover{
     color: #fC95C4;
 }
-/* #navbar nav ul div
-{
-    position: absolute;
-    left: 129% ;
-} */
+
 #navbar nav ul li a:hover
 {
     color: #fC95C4;
