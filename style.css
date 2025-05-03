@@ -1338,9 +1338,7 @@ scale: 0.8;
         box-shadow: 1px 1px 1px 0px rgba(128, 128, 128, 0.223) ,-1px -1px 1px 0px rgba(128, 128, 128, 0.223) ;
         
     }
-    .Aboutpadding{
-        padding: 0px;
-    }
+    
 
     #check:checked~#navbar nav ul {
 
@@ -1352,7 +1350,7 @@ scale: 0.8;
        font-family:'poppins',sans-serif;
        font-size: 16px;
        order: 1;
-       background-color: #ff6565;
+       background-color: #ffffff;
        width: 430px;
        position: absolute !important;
        top:35px;
@@ -1361,39 +1359,14 @@ scale: 0.8;
        }
     
 
-       #check:checked~#navbar .icons .search{
-        display: block;
-       }
+       
+        
 
     #check:checked~ main #firstpage{
         position: absolute;
         top: 50%;
     }
-    #check:checked~#navbar nav div li{
-           display: block;
-    }
-    #check:checked~#navbar nav div.login {
-        display: flex;
-        flex-direction: column;
-        padding: 20px 100px 20px 100px;
-        order: 2;
-        /* margin-top: 252px; */
-        position: absolute;
-        top: 243px;
-        left: 0%;
-        background-color: #ff6565;
-        width: 430px;
-    }
-    #check:checked~#navbar .search{
-        order: 3;
-        display: flex;
-        position: absolute;
-        top: 300px;
-        left: -362px;
-        background-color: #ff6565; 
-        width: 430px;
-
-    }
+    
      /* firstpage  */
 
      #firstpage{
@@ -1450,9 +1423,6 @@ scale: 0.8;
         scale: 0.7;
 } 
 
-#secpage div{
-    
-}
 
 #secpage .border{
     display: none;

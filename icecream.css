@@ -3,6 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+#check{
+    display: none;
+}
+#bar{
+    display: none;
+}
 #navbar
 {   width: 100%;
     display: flex;
@@ -120,7 +126,7 @@ left: 80.5%;
 }
 #thipage .bgimg{
     position: absolute;
-    top: 227%;
+    top: 10%;
     left: 83.5%;
     scale: 0.4;
 }
@@ -196,14 +202,13 @@ left: 80.5%;
 }
 
 #thipage .add_to_cart:hover {
-    /* text-decoration: none; */
-    /* color: #000000 !important; */
+    
     border: 1px solid #090909; 
 
 }
 
 #thipage .add_to_cart:hover a {
-    /* border: 1px solid #090909;    */
+    
     color: #080808;
 
     
@@ -280,14 +285,13 @@ left: 80.5%;
 }
 
 #thipage .add_to_cart2:hover {
-    /* text-decoration: none; */
-    /* color: #000000 !important; */
+   
     border: 1px solid #090909; 
 
 }
 
 #thipage .add_to_cart2:hover a {
-    /* border: 1px solid #090909;    */
+    
     color: #080808;
 
     
@@ -367,14 +371,13 @@ left: 80.5%;
 }
 
 #thipage .add_to_cart3:hover {
-    /* text-decoration: none; */
-    /* color: #000000 !important; */
+   
     border: 1px solid #090909; 
 
 }
 
 #thipage .add_to_cart3:hover a {
-    /* border: 1px solid #090909;    */
+   
     color: #080808;
 
     
@@ -386,8 +389,8 @@ left: 80.5%;
 #thipage .bgimg2{
     scale: 0.4;
     position: absolute;
-    top: 335.4%;
-    right: 83.8%;
+    top: 122%;
+    right: 83%;
 
 }
  
@@ -463,14 +466,13 @@ left: 80.5%;
 }
 
 #thipage .add_to_cart4:hover {
-    /* text-decoration: none; */
-    /* color: #000000 !important; */
+    
     border: 1px solid #090909; 
 
 }
 
 #thipage .add_to_cart4:hover a {
-    /* border: 1px solid #090909;    */
+    
     color: #080808;
 
     
@@ -549,14 +551,13 @@ left: 80.5%;
 }
 
 #thipage .add_to_cart5:hover {
-    /* text-decoration: none; */
-    /* color: #000000 !important; */
+    
     border: 1px solid #090909; 
 
 }
 
 #thipage .add_to_cart5:hover a {
-    /* border: 1px solid #090909;    */
+   
     color: #080808;
 
     
@@ -636,15 +637,145 @@ left: 80.5%;
 }
 
 #thipage .add_to_cart6:hover {
-    /* text-decoration: none; */
-    /* color: #000000 !important; */
+   
     border: 1px solid #090909; 
 
 }
 
 #thipage .add_to_cart6:hover a {
-    /* border: 1px solid #090909;    */
+   
     color: #080808;
 
     
+}
+
+
+@media(max-width:431px){
+    #check{
+        display: none;
+    }
+    #navbar nav ul {
+        display: none;
+    }
+    #navbar .icons .user{
+        display: none;
+    }
+    #navbar .icons .search {
+        display: none;
+    }
+    #navbar nav div.login {
+        display: none;
+    }
+    #bar{
+        display: block;
+        display: block;
+            position: absolute;
+            top: 3%;
+            left: 92%;
+            font-size: 25px;
+            z-index: 1000;
+        
+        }
+        #border{
+            border: 1px solid rgba(0, 0, 0, 0);
+            width: 40px;
+            height: 30px;
+            position: absolute;
+            top: 2.7%;
+            left: 90%;
+            box-shadow: 1px 1px 1px 0px rgba(128, 128, 128, 0.223) ,-1px -1px 1px 0px rgba(128, 128, 128, 0.223) ;
+            
+        }
+    
+        #check:checked~#navbar nav ul {
+    
+           display: flex;
+           flex-direction: column;
+           gap: 17px;
+           justify-content: center;
+           align-items: center;
+           font-family:'poppins',sans-serif;
+           font-size: 16px;
+           order: 1;
+           background-color: #ffffff;
+           width: 430px;
+           position: absolute !important;
+           top:35px;
+           left:0%;
+    
+           }
+          
+           #check:checked~#thipage .footer{
+            position: absolute;
+            top: 450%;
+           }
+           #check:checked~#thipage{
+            position: absolute;
+            top: 40%;
+           }
+           #thipage{
+            max-width: 430px;
+        } 
+       
+        #thipage .border{
+            display: none;
+        }
+        #thipage .bgimg{
+            display: none;
+        }
+        #thipage .h1p{
+            width: 430px;
+            scale: 0.75;
+            position: absolute;
+            top: 15%;
+            left: -8%;
+            
+        }
+        #thipage .box_img1{
+            width: 400px;
+            position: absolute;
+            top:30% ;
+            left: 4%;
+            scale: 0.95;
+        }
+        #thipage #boximage2{
+            width: 400px;
+            position: absolute;
+            top: 102%;
+            left: -29%;
+            scale: 0.99;   
+        }
+        #thipage #boximage3{
+            width: 400px;
+            position: absolute;
+            top: 174%;
+            left: -53.5%;
+            scale: 0.99;
+        }
+        #thipage .bgimg2{
+            display: none;
+        }
+        #thipage #boximage4_5_6 .box_img4{ 
+            width: 400px;
+            position: absolute;
+            top:245% ;
+            left: 3.8%;
+            scale: 0.94;
+        } 
+        #thipage #boximage5 {
+            width: 400px;
+            position: absolute;
+            top: 315%;
+            left: -29%;
+            scale: 0.99;
+        }
+        #thipage #boximage6{
+            width: 400px;
+            position: absolute;
+            top: 388%;
+            left:-54%;
+            scale: 0.99;
+        }
+       
+       
 }

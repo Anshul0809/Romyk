@@ -3,6 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+#check{
+    display: none;
+}
+#bar{
+    display: none;
+}
 #navbar
 {   width: 100%;
     display: flex;
@@ -234,4 +240,123 @@ left: 80.5%;
     color: rgb(255, 255, 255);
     font-family: 'poppins',sans-serif;
     font-size: 20px;
+ }
+ @media(max-width:431px){
+    #check{
+        display: none;
+    }
+    #navbar nav ul {
+        display: none;
+    }
+    #navbar .icons .user{
+        display: none;
+    }
+    #navbar .icons .search {
+        display: none;
+    }
+    #navbar nav div.login {
+        display: none;
+    }
+    #bar{
+        display: block;
+        display: block;
+            position: absolute;
+            top: 3%;
+            left: 92%;
+            font-size: 25px;
+            z-index: 1000;
+        
+        }
+        #border{
+            border: 1px solid rgba(0, 0, 0, 0);
+            width: 40px;
+            height: 30px;
+            position: absolute;
+            top: 2.7%;
+            left: 90%;
+            box-shadow: 1px 1px 1px 0px rgba(128, 128, 128, 0.223) ,-1px -1px 1px 0px rgba(128, 128, 128, 0.223) ;
+            
+        }
+    
+        #check:checked~#navbar nav ul {
+    
+           display: flex;
+           flex-direction: column;
+           gap: 17px;
+           justify-content: center;
+           align-items: center;
+           font-family:'poppins',sans-serif;
+           font-size: 16px;
+           order: 1;
+           background-color: #ffffff;
+           width: 430px;
+           position: absolute !important;
+           top:35px;
+           left:0%;
+    
+           }
+           #check:checked~#foupage{
+            position: absolute;
+            top: 40%;
+           }
+           #check:checked~#thipage .footer{
+            position: absolute;
+            top: 450%;
+           }
+           #foupage{
+            max-width: 430px;
+        }
+       
+        #foupage .heading {
+            width: 430px;
+            position: absolute;
+            top: 15%;
+            left: -14%;
+            scale: 0.75;
+        
+        }
+        #foupage .border{
+            display: none;
+        }
+        #foupage .box .box1{
+            position: absolute;
+            top: 30%;
+            left: 5.8%;
+        }
+        #foupage .box .box2{
+            position: absolute;
+            top: 60%;
+            left: 5.8%;
+        }
+        #foupage .box .box3{
+            position: absolute;
+            top: 90%;
+            left: 5.8%;
+        }
+        #foupage .footer{
+            position: absolute;
+            top: 120%;
+        }
+        #foupage .footer .border2{
+            border: 1px solid rgba(255, 255, 255, 0.642);
+            width: 95%;
+            position: absolute;
+            top: 42%;
+            left: 2.5%;
+        }
+       
+        #foupage .footer p{
+            width: 100%;
+            color: white;
+            font-family: 'poppins',sans-serif;
+            font-size: 15px;
+            position: relative;
+
+        }
+        #foupage .footer .last{
+            position: absolute;
+            left: 4%;
+        }
+        
+           
  }
