@@ -3,6 +3,13 @@
     padding: 0px;
     box-sizing: border-box;
 }
+#check{
+    display: none;
+
+}
+#bar{
+    display: none;
+}
 #navbar
 {   width: 100%;
     display: flex;
